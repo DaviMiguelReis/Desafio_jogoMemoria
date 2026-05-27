@@ -100,8 +100,10 @@ Após cada revelação, o método ExibirTabuleiro() é chamado novamente para at
     
 Foi utilizada uma estrutura condicional if para verificar se as cartas escolhidas possuem o mesmo valor e não pertencem à mesma posição.
 A condição utilizada foi:
+
 if (gabarito[l1, c1] == gabarito[l2, c2] &&
    (l1 != l2 || c1 != c2))
+   
 Quando a condição é verdadeira, o programa exibe:
 BOA! Par encontrado!
 E incrementa a variável de pares:
